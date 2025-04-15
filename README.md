@@ -1,70 +1,30 @@
-# Getting Started with Create React App
+# Image Editor Application
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+## Introduction
+Welcome to the Image Editor Application, a simple web app built with React, React Router, and Fabric.js. It allows you to search for images using the Unsplash API, edit them by adding text or shapes (triangle, circle, rectangle, polygon), and download your creations as PNG files. This app is perfect for quick image edits with an intuitive interface.
 
-## Available Scripts
+## How to Use
+Follow these steps to use the app on CodeSandbox:
 
-In the project directory, you can run:
+1. **Access the App**: Open the app at CodeSandbox Link https://codesandbox.io/p/devbox/jolly-buck-c6jlpz
 
-### `npm start`
+2. **Search for Images**:
+   - On the Search Page, type a keyword (e.g., "nature") in the search bar.
+   - Click the 🔍 button to fetch images from Unsplash.
+3. **Edit an Image**:
+   - Click any image or its "Add Caption" button to go to the Edit Page.
+   - The image loads on a canvas where you can:
+     - Click "Add Text" to type custom text.
+     - Click "Add Triangle," "Add Circle," "Add Rectangle," or "Add Polygon" to draw shapes.
+     - Click an object to select it, then use "Delete Selected" to remove it.
+     - Drag, resize, or rotate objects on the canvas.
+4. **Save Your Work**:
+   - Click "Download" to save the edited image as a PNG file.
+5. **Return to Search**: Use the browser’s back button to search again.
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+## Notes
+- The Name and Email fields on the Search Page are placeholders and not used.
+- The Unsplash API key is included for demo purposes. In production, use a `.env` file.
+- If images don’t load, try a different search term or check your connection.
 
-### `npm test`
-
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
-
-### `npm run build`
-
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
-
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
-
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
-
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
